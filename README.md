@@ -40,3 +40,7 @@ containers. And this system could just run in a vm somewhere.
 Database could just run in one docker container, or it could be separated as necessary.
 
 -- Alex
+
+#Dev/Usage Info
+camelCase must be used for everything.
+All microservice ports run on ports starting at 9000 for the db

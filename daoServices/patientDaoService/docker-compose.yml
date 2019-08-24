@@ -8,13 +8,10 @@ services:
   web:
     build: .
     container_name: patientDaoService
-    images: python:3.7.4-alpine3.10
     ports:
       - 9001:5000
-    networks:
-      default:
-        external:
-          name: femrNetDb
+#    networks:
+#      - femrNetDb
 #services:
 #  db:
 #    container_name: dbServiceFemrDb
@@ -32,3 +29,7 @@ services:
 #      #Need this to persist data
 #      #Outside:Inside
 #      - ../dockerVolumes/dbServiceFemrDb:/var/lib/postgresql/data
+networks:
+  default:
+    external:
+      name: femrdb_femrNetDb

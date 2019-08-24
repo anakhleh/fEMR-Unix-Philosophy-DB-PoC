@@ -2,20 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcb1eb6f-aae0-4065-b57a-586736425ab8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/translations/pt/LC_MESSAGES/messages.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/babel/babel.cfg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.rst" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/README.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/app/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/translations/pt/LC_MESSAGES/messages.po" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/app/translations/pt/LC_MESSAGES/messages.po" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/babel/babel.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/babel/babel.cfg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/daoServices/patientDaoService/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,10 +25,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/docker-compose.yml">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="508">
+              <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -38,17 +36,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/Dockerfile">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+            <state relative-caret-position="68">
+              <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -63,7 +61,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.md">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
@@ -73,12 +71,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.rst">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/README.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/api.py">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/api.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" selection-start-line="5" selection-end-line="5" />
@@ -90,7 +88,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/models.py">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -102,10 +100,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/__init__.py">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+            <state relative-caret-position="238">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#18#41#0" expanded="true" />
               </folding>
@@ -114,10 +112,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py">
+        <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="170">
+              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -147,7 +145,6 @@
         <option value="$PROJECT_DIR$/dbServices/femrDb/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/README.md" />
-        <option value="$PROJECT_DIR$/daoServices/patientDaoService/Dockerfile" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/requirements.txt" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/app/models.py" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/app/__init__.py" />
@@ -155,16 +152,17 @@
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/config.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/testdata.py" />
-        <option value="$PROJECT_DIR$/daoServices/patientDaoService/docker-compose.yml" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/api.py" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/models.py" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/requirements.txt" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/__init__.py" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.md" />
-        <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/Dockerfile" />
-        <option value="$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml" />
         <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py" />
+        <option value="$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/daoServices/patientDaoService/Dockerfile" />
+        <option value="$PROJECT_DIR$/daoServices/patientDaoService/docker-compose.yml" />
       </list>
     </option>
   </component>
@@ -203,14 +201,6 @@
               <item name="fEMR-Unix-Philosophy-DB-PoC" type="462c0819:PsiDirectoryNode" />
               <item name="daoServices" type="462c0819:PsiDirectoryNode" />
               <item name="patientDaoService" type="462c0819:PsiDirectoryNode" />
-              <item name="crud_rest_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="fEMR-Unix-Philosophy-DB-PoC" type="b2602c69:ProjectViewProjectNode" />
-              <item name="fEMR-Unix-Philosophy-DB-PoC" type="462c0819:PsiDirectoryNode" />
-              <item name="daoServices" type="462c0819:PsiDirectoryNode" />
-              <item name="patientDaoService" type="462c0819:PsiDirectoryNode" />
-              <item name="crud_rest_api" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -265,6 +255,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\daoServices\patientDaoService" />
       <recent name="C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\daoServices\patientDaoService\crud_rest_api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -294,12 +285,12 @@
       <option name="presentableId" value="Default" />
       <updated>1566603220484</updated>
       <workItem from="1566603221765" duration="4335000" />
-      <workItem from="1566607599816" duration="9948000" />
+      <workItem from="1566607599816" duration="14329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14283000" />
+    <option name="totallyTimeSpent" value="18664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="707" y="0" width="1217" height="1085" extended-state="0" />
@@ -421,14 +412,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.md">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
@@ -436,20 +427,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/README.rst">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/README.rst">
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/api.py">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="170">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/models.py">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
@@ -459,27 +447,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/app/__init__.py">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/api.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="32" lean-forward="true" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#18#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/config.py">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/Dockerfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#18#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -490,17 +474,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/crud_rest_api/docker-compose.yml">
+    <entry file="file://$PROJECT_DIR$/dbServices/femrDb/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/daoServices/patientDaoService/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
         </state>
       </provider>
     </entry>

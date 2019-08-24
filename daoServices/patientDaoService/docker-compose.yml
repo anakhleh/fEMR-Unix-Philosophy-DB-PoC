@@ -13,7 +13,8 @@ services:
       - 9001:5000
     networks:
       default:
-        name: femr-net
+        external:
+          name: femrNetDb
 #services:
 #  db:
 #    container_name: dbServiceFemrDb

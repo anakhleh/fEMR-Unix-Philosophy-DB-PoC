@@ -22,6 +22,7 @@ services:
       #Outside:Inside
       - ../dockerVolumes/dbServiceFemrDb:/var/lib/postgresql/data
     networks:
-      default:
-        external:
-          name: femr-net
+      - femrNetDb
+
+networks:
+  femrNetDb:

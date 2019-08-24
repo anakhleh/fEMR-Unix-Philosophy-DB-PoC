@@ -6,29 +6,11 @@ version: '3.7'
 
 services:
   web:
+#    working_dir: .
     build: .
     container_name: patientDaoService
     ports:
       - 9001:5000
-#    networks:
-#      - femrNetDb
-#services:
-#  db:
-#    container_name: dbServiceFemrDb
-#    #image:version
-#    image: postgres:12
-#    environment:
-#      - "POSTGRES_PASSWORD=admin"
-#      - "POSTGRES_USER=admin"
-#      - "POSTGRES_DB=test"
-#      - "PGDATA=/var/lib/postgresql/data"
-#    ports:
-#      #Outside:Inside
-#      - "5432:5432"
-#    volumes:
-#      #Need this to persist data
-#      #Outside:Inside
-#      - ../dockerVolumes/dbServiceFemrDb:/var/lib/postgresql/data
 networks:
   default:
     external:

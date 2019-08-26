@@ -22,7 +22,10 @@ services:
       #Outside:Inside
       - ../dockerVolumes/dbServiceFemrDb:/var/lib/postgresql/data
     networks:
-      - femrNetDb
+      femrDbNet:
+          aliases:
+            - db01
 
 networks:
-  femrNetDb:
+  femrDbNet:
+    driver: bridge

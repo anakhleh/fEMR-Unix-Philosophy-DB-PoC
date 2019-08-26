@@ -1,13 +1,12 @@
 import os
 
-DATABASE_NAME = 'test'
-DATABASE_PORT = '5432'
-DATABASE_USER = 'admin'
-DATABASE_PASSWORD = 'admin'
-DATABASE_IP = '127.0.0.1'
+# DATABASE_NAME = 'test'
+# DATABASE_PORT = '5432'
+# DATABASE_USER = 'admin'
+# DATABASE_PASSWORD = 'admin'
+# DATABASE_IP = '127.0.0.1'
 
-DATABASE_CONNECTION_URI = 'postgresql://' + DATABASE_USER + ':' + DATABASE_PASSWORD\
-                          + DATABASE_IP + ':' + DATABASE_PORT + '/' + DATABASE_NAME
+DATABASE_CONNECTION_URI = 'postgresql://admin:admin@femrdb:5432/test'
 
 basedir = os.path.abspath(os.path.dirname(__file__))
 

@@ -13,13 +13,13 @@ basedir = os.path.abspath(os.path.dirname(__file__))
 # CSRF_ENABLED = True
 SECRET_KEY = "\2\1thisismyscretkey\1\2\e\y\y\h"
 
-OPENID_PROVIDERS = [
-    {"name": "Google", "url": "https://www.google.com/accounts/o8/id"},
-    {"name": "Yahoo", "url": "https://me.yahoo.com"},
-    {"name": "AOL", "url": "http://openid.aol.com/<username>"},
-    {"name": "Flickr", "url": "http://www.flickr.com/<username>"},
-    {"name": "MyOpenID", "url": "https://www.myopenid.com"},
-]
+# OPENID_PROVIDERS = [
+#     {"name": "Google", "url": "https://www.google.com/accounts/o8/id"},
+#     {"name": "Yahoo", "url": "https://me.yahoo.com"},
+#     {"name": "AOL", "url": "http://openid.aol.com/<username>"},
+#     {"name": "Flickr", "url": "http://www.flickr.com/<username>"},
+#     {"name": "MyOpenID", "url": "https://www.myopenid.com"},
+# ]
 
 SQLALCHEMY_DATABASE_URI = DATABASE_CONNECTION_URI
 # SQLALCHEMY_DATABASE_URI = 'mysql://username:password@mysqlserver.local/quickhowto'
@@ -55,7 +55,7 @@ IMG_UPLOAD_URL = "/static/uploads/"
 AUTH_TYPE = 1
 # AUTH_LDAP_SERVER = "ldap://dc.domain.net"
 AUTH_ROLE_ADMIN = "Admin"
-AUTH_ROLE_PUBLIC = "Public"
+AUTH_ROLE_PUBLIC = "Admin"
 APP_NAME = "F.A.B. Example"
 APP_THEME = ""  # default
 # APP_THEME = "cerulean.css"      # COOL
@@ -76,11 +76,11 @@ APP_THEME = ""  # default
 # APP_THEME = "solar.css"
 # APP_THEME = "superhero.css"
 
-#FAB_ROLES = {
-#    "ReadOnly": [
+# FAB_ROLES = {
+#    "admin": [
 #        [".*", "can_list"],
 #        [".*", "can_show"],
-#        [".*", "menu_access"]
+#        [".*", "menu_access"],
 #    ]
-#}
+# }
 

@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  patient_service_dao:
+    build: . #future: images: femr/patientDaoService
+    ports:
+      - 9001:5000
+    networks:
+      - femrdb_femrDbNet
+    external_links:
+      - femrdb
+networks:
+  femrdb_femrDbNet:
+    external: true

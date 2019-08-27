@@ -1,0 +1,11 @@
+#docker-compose for development purposes only
+#You should only ever use this if you are documenting the API,
+#Or if you are modifying this service
+
+version: '3.7'
+
+services:
+  dev-app:
+    build: .
+    environment:
+      - "DB_CONNECTION_STRING=sqlite:///dev-db.sqlite3"

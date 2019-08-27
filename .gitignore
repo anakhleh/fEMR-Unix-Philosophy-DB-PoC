@@ -25,6 +25,7 @@ wheels/
 *.egg
 MANIFEST
 Flask-AppBuilder
+.idea
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -103,3 +104,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+#pycharm idea folder
+.idea

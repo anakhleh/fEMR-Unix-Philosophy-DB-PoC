@@ -1,17 +1,30 @@
-#
-#  patient_service_dao:
-##    networks:
-##      - daoToDbNet
-#    build:  #future: images: femr/#    ports:
-#      - 9001:5000
-#    environment:
-#      - POSTGRES_PASSWORD=admin
-#      - POSTGRES_USER=admin
-#      - POSTGRES_DB=test
-#      - PGDATA=/var/lib/postgresql/data
-#    depends_on:
-#      - femrdb
-#    links:
-#      - femrdb
-##networks:
-##  daoToDbNet:
+#docker container kill $(docker container ls -a -q)
+#docker rm $(docker container ls -a -q)
+#docker rmi $(docker images -q)
+#docker container kill $(docker container ls -a -q); docker rm $(docker container ls -a -q); docker rmi $(docker images -q)
+
+#You'd thing we'd use depends_on here, but turns out it will start the web servers before the db is accepting connections,
+#but after the dbms is created, so if the webserver needs the db upon start, depends_on doesn't work
+
+
+version: '3.7'
+
+services:
+  subject_dao_service:
+    build:
+      context: daoServices/subjectDaoService
+    environment:
+      - DB_CONNECTION_STRING=postgres://test:test@db:5432/test
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_USER=test
+    ports:
+      - 5000:5000
+  db:
+    image: postgres:12
+    environment:
+      - POSTGRES_PASSWORD=test
+      - POSTGRES_USER=test
+      - POSTGRES_DB=test
+      - PGDATA=/var/lib/postgresql/data
+#    ports:
+#      - 5432:5432

@@ -4,14 +4,14 @@ services:
   femrdb:
     image: postgres:12
     environment:
-      - POSTGRES_PASSWORD=admin
-      - POSTGRES_USER=admin
-      - POSTGRES_DB=test
-      - PGDATA=/var/lib/postgresql/data
+      - "POSTGRES_PASSWORD=admin"
+      - "POSTGRES_USER=admin"
+      - "POSTGRES_DB=test"
+      - "PGDATA=/var/lib/postgresql/data"
     ports:
-      - 5432:5432
-    networks:
-      - femrDbNet
-networks:
-  femrDbNet:
-    driver: bridge
+      - "5432:5432"
+#    networks:
+#      - femrDbNet
+#networks:
+#  femrDbNet:
+#    driver: bridge

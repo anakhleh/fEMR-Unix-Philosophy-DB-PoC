@@ -44,3 +44,7 @@ Database could just run in one docker container, or it could be separated as nec
 #Dev/Usage Info
 camelCase must be used for everything.
 All microservice ports run on ports starting at 9000 for the db
+
+#Usage
+Assuming you are in project folder:
+`git update-index --assume-unchanged ./daoServices/subjectDaoService/dev-db.sqlite3`

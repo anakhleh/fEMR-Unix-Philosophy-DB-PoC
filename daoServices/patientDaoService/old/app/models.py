@@ -1,9 +1,8 @@
-import datetime
+from flask_sqlalchemy import SQLAlchemy
 
-from flask_appbuilder import Model
-from sqlalchemy import Column, Date, ForeignKey, Integer, String
+db = SQLAlchemy(app)
 
-class Subject(Model):
+class Subject(db.Model):
     id = Column(Integer, primary_key=True)
     name = Column(String(255), nullable=True)
 

@@ -1,0 +1,27 @@
+#docker container kill $(docker container ls -a -q)
+#docker rm $(docker container ls -a -q)
+#docker rmi $(docker images -q)
+#docker container kill $(docker container ls -a -q); docker rm $(docker container ls -a -q); docker rmi $(docker images -q)
+
+#You'd thing we'd use depends_on here, but turns out it will start the web servers before the db is accepting connections,
+#but after the dbms is created, so if the webserver needs the db upon start, depends_on doesn't work
+
+
+version: '3.7'
+
+services:
+  subject_dao_service:
+    build:
+      context: daoServices/subjectDaoService
+    env_file:
+      - ./env
+    ports:
+      - 5000:5000
+#    expose:
+#      - 5000
+  db:
+    image: postgres:11
+    env_file:
+      - ./env
+#    ports:
+#      - 5432:5432

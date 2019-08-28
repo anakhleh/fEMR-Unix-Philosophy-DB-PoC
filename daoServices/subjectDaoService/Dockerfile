@@ -12,4 +12,4 @@ ENV LANG=C.UTF-8
 COPY . /app
 WORKDIR /app
 RUN pip3 install -r requirements.txt
-CMD ["./wait-for-postgres.sh", "db:5432" , "--", "python", "app.py"]
+ENTRYPOINT ["/bin/bash", "./entrypoint.sh"]

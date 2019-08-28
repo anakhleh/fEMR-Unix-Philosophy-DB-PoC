@@ -3,14 +3,23 @@
 #docker rmi $(docker images -q)
 #docker container kill $(docker container ls -a -q); docker rm $(docker container ls -a -q); docker rmi $(docker images -q)
 
-#You'd thing we'd use depends_on here, but turns out it will start the web servers before the db is accepting connections,
+#You'd think we'd use depends_on here, but turns out it will start the web servers before the db is accepting connections,
 #but after the dbms is created, so if the webserver needs the db upon start, depends_on doesn't work
 
 
 version: '3.7'
 
 services:
+  subject_info_dao_service:
+    container_name: subjectinfodaoservice
+    build:
+      context: daoServices/subjectInfoDaoService
+    env_file:
+      - ./env
+    ports:
+      - 5001:5000
   subject_dao_service:
+    container_name: subjectdaoservice
     build:
       context: daoServices/subjectDaoService
     env_file:
@@ -20,6 +29,7 @@ services:
 #    expose:
 #      - 5000
   db:
+    container_name: db
     image: postgres:11
     env_file:
       - ./env

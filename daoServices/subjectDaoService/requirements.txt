@@ -1,0 +1,11 @@
+#Web Server
+flask
+
+#DB Models, SQLAlchemy for flask basically
+flask_sqlalchemy
+
+#PostgreSQL DB Connection Adapter
+psycopg2-binary
+
+#REST API Generator
+flask_sandboy

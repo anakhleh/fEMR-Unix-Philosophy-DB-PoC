@@ -1,4 +1,0 @@
-flask
-sqlalchemy
-flask-appbuilder
-psycopg2-binary

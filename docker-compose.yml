@@ -10,28 +10,32 @@
 version: '3.7'
 
 services:
-  subject_info_dao_service:
-    container_name: subjectinfodaoservice
+  flask_dao_service:
+    container_name: coredaoservice
     build:
-      context: daoServices/subjectInfoDaoService
-    env_file:
-      - ./env
-    ports:
-      - 5001:5000
-  subject_dao_service:
-    container_name: subjectdaoservice
-    build:
-      context: daoServices/subjectDaoService
+      context: daoServices/flask-appbuilder-based
     env_file:
       - ./env
     ports:
       - 5000:5000
-#    expose:
-#      - 5000
+#  subject_info_dao_service:
+#    container_name: subjectinfodaoservice
+#    build:
+#      context: daoServices/subjectInfoDaoService
+#    env_file:
+#      - ./env
+#    ports:
+#      - 5001:5000
+#  subject_dao_service:
+#    container_name: subjectdaoservice
+#    build:
+#      context: daoServices/subjectDaoService
+#    env_file:
+#      - ./env
+#    ports:
+#      - 5000:5000
   db:
     container_name: db
     image: postgres:11
     env_file:
       - ./env
-#    ports:
-#      - 5432:5432

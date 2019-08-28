@@ -3,5 +3,7 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Flask-AppBuilder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/daoServices/flask-appbuilder-based/Flask-AppBuilder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/daoServices/subjectDaoService/Flask-AppBuilder" vcs="Git" />
   </component>
 </project>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="VcsDirectoryMappings">
-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Flask-AppBuilder" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/daoServices/flask-appbuilder-based/Flask-AppBuilder" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/daoServices/subjectDaoService/Flask-AppBuilder" vcs="Git" />
-  </component>
-</project>

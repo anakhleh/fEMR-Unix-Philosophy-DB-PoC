@@ -1,0 +1,6 @@
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.csprojAssemblyReference.cache
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.csproj.CoreCompileInputs.cache
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.RazorAssemblyInfo.cache
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.RazorAssemblyInfo.cs
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.AssemblyInfoInputs.cache
+C:\User Data\Software\fEMR-Unix-Philosophy-DB-PoC\managerServices\SimpleManagerService\obj\Debug\netcoreapp2.2\SimpleManagerService.AssemblyInfo.cs
